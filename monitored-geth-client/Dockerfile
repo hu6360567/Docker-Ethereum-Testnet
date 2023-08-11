@@ -1,6 +1,6 @@
 FROM ethereum/client-go:stable
 
-RUN apk add --update git bash nodejs nodejs-npm perl
+RUN apk add --update git bash nodejs npm perl
 
 RUN npm i -g npm@latest
 
